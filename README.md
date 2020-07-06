@@ -1,1 +1,1 @@
-hi
+This project will use the Google homepage to practice page layout.
