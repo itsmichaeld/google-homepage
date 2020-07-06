@@ -5,48 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Google</title>
+    <link rel="shortcut icon" href="google-favicon.ico" type="image/x-icon">
 </head>
 <body>
     <nav>
-        <div class="nav-left">
-            <a href="#">About</a>
-            <a href="#">Store</a>
-        </div>
-        <div class="nav-right">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <a href="#"><img src="images/apps.svg" alt="Google apps logo"></a>
-            <a href="#"><img src="images/m_userlogo.png" alt="username logo"></a>
-        </div>
+        <ul class="nav-left">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+        <ul class="nav-right">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#"><img src="images/apps.svg" id="apps" alt="Google apps logo"></a></li>
+            <li><a href="#"><img src="images/m_userlogo.png" id="user" alt="username logo"></a></li>
+        </ul>
     </nav>
 
     <main>
-        <div class="container">
-            <img src="images/googlelogo_color_272x92dp.png" alt="Google logo">
+            <img src="images/googlelogo_color_272x92dp.png" id="main-img" alt="Google logo">
             <input type="text">
             <div class="buttons">
                 <button>Google Search</button>
                 <button>I'm Feeling Lucky</button>
             </div>
-        </div>
     </main>
 
     <footer>
-        <div>
+        <div id="footer-top">
             <span>United Kingdom</span>
         </div>
-        <div>
-            <div class="footer-left">
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">How Search Works</a>
-            </div>
+        <hr>
+        <div id="footer-bottom">
+            <ul class="footer-left">
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search Works</a></li>
+            </ul>
 
-            <div class="footer-right">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
-            </div>
+            <ul class="footer-right">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
         </div>
     </footer>
 </body>
